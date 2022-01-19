@@ -1,0 +1,60 @@
+/*FOOTER*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+.footer{
+  grid-area: footer;
+  height: 20rem;
+  background-color: rgb(37, 37, 37);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+
+.nome h2:nth-child(1){
+  margin:10px;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  margin-left: -10rem;
+}
+
+.endereco-completo{
+  display: flex;
+  height: 20rem;
+  background: none;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linhavertical{
+  height: 50px;
+  border-right: 1px solid white;
+  margin: 2rem;
+}
+
+.endereco-texto{
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.horarios{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  bottom: 0;
+}
+
+.icones{
+  margin-right: -5rem;
+}
+.redes h2:nth-child(1){
+  margin:10px;
+}
+    
+.footer a{
+  margin-left: 10px;
+  margin-right: 5px;
+}
